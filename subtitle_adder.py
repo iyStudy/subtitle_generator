@@ -14,7 +14,7 @@ class SubtitleAdder:
         youtube_style = """
     [V4+ Styles]
     Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-    Style: Default,Arial,16,&Hffffff,&Hffffff,&H000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
+    Style: Default,Noto Sans CJK JP,16,&Hffffff,&Hffffff,&H000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,0
     """
 
         with open(ass_file_path, 'r', encoding='utf-8') as file:
