@@ -25,6 +25,8 @@
 事前に「ffmpeg」が必要です。
 1. ffmpegをインストール
 2. ffmpegのpathを通す
+3. ライブラリをインストール
+  - `pip install srt pathlib git+https://github.com/openai/whisper.git`
 
 ## 注意
 
