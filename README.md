@@ -14,19 +14,8 @@
 
 ## 使い方
 
-1. `main.py`を実行します。ディレクトリを選択するダイアログが開きます。基本的にinputフォルダに元のmp4ファイルを配置することを推奨します。
-2. 字幕を追加したいMP4ファイルが含まれているディレクトリを選択します。
-3. スクリプトは各ビデオに対して字幕を作成し、ビデオに字幕を追加し、字幕付きのビデオを"output"ディレクトリに配置します。
-4. もし、字幕の内容に誤りがある場合、assファイルを編集しsubtitle_adder.pyを実行することで、assファイルの内容をもとに字幕を付与します。
+1.Google Colabolatory上でSubTitle_Gneerator.ipynbを実行
 
-## 必要条件
-
-このプロジェクトのスクリプトを実行するには、Python 3.xが必要です。
-事前に「ffmpeg」が必要です。
-1. ffmpegをインストール
-2. ffmpegのpathを通す
-3. ライブラリをインストール
-  - `pip install srt pathlib git+https://github.com/openai/whisper.git`
 
 ## 注意
 
